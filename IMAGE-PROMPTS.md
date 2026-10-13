@@ -1,0 +1,20 @@
+# Image prompts
+
+Generated with the built-in `image_gen.imagegen` tool. Final images are JPEGs compressed with Python Pillow at quality 80, maximum 1600 pixels wide and under 300 KB each.
+
+## images/hero.jpg
+
+Use case: photorealistic-natural. Create ONE realistic editorial photograph, landscape 3:2 composition, warm pale cream and natural oak palette, soft morning sunlight, tactile paper grain, restrained magazine photography. Absolutely no people, hands, real brands, logos, recognizable website names, watermarks, or readable real-world brand text. No em dash characters in any text. This is one photograph, not a collage. A freshly printed folded newspaper beside a ceramic cup of black coffee on a sunlit kitchen table. In the softly focused background sits a small sleek compact ivory unbranded home printer. Low intimate three-quarter camera angle, window shadows across the oak table, a quiet morning ritual. Newspaper contains fictional hobby stories, small text is out of focus. Newspaper and coffee are the foreground focus.
+
+## images/printer.jpg
+
+Use case: photorealistic-natural. Create ONE realistic editorial photograph, landscape 3:2 composition, warm pale cream and natural oak palette, soft morning sunlight, tactile paper grain, restrained magazine photography. Absolutely no people, hands, real brands, logos, recognizable website names, watermarks, or readable real-world brand text. No em dash characters in any text. This is one photograph, not a collage. A small compact ivory unbranded home printer on a tidy natural oak desk printing a newspaper page with columns of type and a small grayscale botanical photograph. Gentle morning light, realistic paper coming out of output slot and lying forward onto desk. Eye-level three-quarter detail shot, restrained warm neutral interior, credible physical printer design. All newspaper text is invented and fine print is indistinct.
+
+## images/frontpage.jpg
+
+Use case: photorealistic-natural. Create ONE realistic editorial photograph, landscape 3:2 composition, warm pale cream and natural oak palette, soft morning sunlight, tactile paper grain, restrained magazine photography. Absolutely no people, hands, real brands, logos, recognizable website names, watermarks, or readable real-world brand text. No em dash characters in any text. This is one photograph, not a collage. Close-up overhead photograph of a personalized newspaper front page on pale oak, paper fills most of frame, slight natural angle, full masthead clearly in view. Exact masthead in elegant traditional serif: "The Morning Fold". Large invented playful headline: "Local sourdough starter finally earns its keep". Smaller fictional headlines: "The balcony tomato makes a comeback" and "A small case for very long walks". A black and white photograph of artisan bread and a small botanical illustration. Real fine newspaper columns, delicate rules, tactile off-white newsprint texture, neatly designed beautiful authentic newspaper page. All stories are fictional about reader hobbies. No other brands.
+
+## images/roundup.jpg
+
+Use case: photorealistic-natural. Create ONE realistic editorial photograph, landscape 3:2 composition, warm pale cream and natural oak palette, soft morning sunlight, tactile paper grain, restrained magazine photography. Absolutely no people, hands, real brands, logos, recognizable website names, watermarks, or readable real-world brand text. No em dash characters in any text. This is one photograph, not a collage. Close-up overhead photograph of a printed weekly newspaper feedback page on an oak table beside a ceramic coffee cup and a simple dark pen. Exact large serif heading: "A little more you." Smaller heading: "Your weekly roundup". Clear printed empty and pen-ticked checkboxes beside fictional hobby topic rows about gardening, bread and long walks. Column labels read "Liked" and "Less of this". Several natural handwritten checkmarks and one circled checkbox in dark ink, no hands. Cream newsprint, elegant column rules, natural soft window shadows. The pen and coffee are secondary to the feedback paper.
+
