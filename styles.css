@@ -386,16 +386,18 @@ figcaption {
 }
 
 .printer-strip {
-  display:flex;
-  align-items:center;
-  background:#eae5d9;
-  gap:30px;
-  padding-right:35px;
+  /* The strip has no supporting copy, so let the photo stand on its own. */
+  max-width:480px;
+  margin-inline:auto;
 }
 
 .printer-strip img {
-  width:235px;
-  height:148px;
+  width:100%;
+  height:auto;
+}
+
+.printer-strip .sun-drawing {
+  display:none;
 }
 
 .printer-title {
@@ -736,14 +738,6 @@ footer p,footer>span {
   .step-foot {
     margin-top:10px;
   }
-  .printer-strip {
-    padding-right:15px;
-    gap:17px;
-  }
-  .printer-strip img {
-    width:38%;
-    height:150px;
-  }
   .printer-title {
     font-size:22px;
   }
@@ -843,6 +837,153 @@ footer p,footer>span {
   }
   .gift-option {
     font-size:11px;
+  }
+}
+
+@media(max-width:600px) {
+  .page {
+    width:calc(100% - 40px);
+  }
+  .masthead {
+    display:flex;
+    align-items:center;
+    min-height:44px;
+  }
+  .edition-line {
+    padding-block:0;
+    font-size:12px;
+  }
+  .edition-line a {
+    display:inline-flex;
+    align-items:center;
+    gap:3px;
+    min-height:44px;
+  }
+  .hero {
+    gap:24px;
+    padding-block:32px;
+  }
+  .hero-copy,.feature-copy,.printer-strip {
+    max-width:none;
+  }
+  h1 {
+    font-size:clamp(44px,10vw,52px);
+  }
+  .hero .signup-slot {
+    margin-top:24px;
+  }
+  .signup-form {
+    margin-top:16px;
+  }
+  .email-label {
+    margin-bottom:8px;
+    font-size:14px;
+  }
+  .email-row {
+    flex-direction:column;
+    gap:10px;
+  }
+  .email-row input,.email-row button {
+    flex:none;
+    width:100%;
+    min-height:48px;
+    padding:12px 14px;
+  }
+  .email-row input {
+    border:1px solid var(--rule);
+    font-size:16px;
+  }
+  .email-row button {
+    font-size:15px;
+  }
+  .email-row button span {
+    display:inline;
+  }
+  .gift-option,.final-signup .gift-option {
+    min-height:44px;
+    margin:8px 0 0;
+    gap:10px;
+    font-size:14px;
+  }
+  .gift-option input {
+    flex:none;
+    width:22px;
+    height:22px;
+  }
+  .hero-photo img,.printer-strip img,.feature img {
+    width:100%;
+    height:auto;
+    aspect-ratio:auto;
+  }
+  .how-section {
+    padding-block:32px;
+  }
+  .section-heading {
+    margin-bottom:20px;
+  }
+  .section-heading h2,.final-signup h2 {
+    font-size:30px;
+    line-height:1.2;
+    letter-spacing:-.7px;
+  }
+  .steps {
+    margin-bottom:24px;
+  }
+  .step,.step:first-child,.step:last-child {
+    display:grid;
+    grid-template-columns:28px minmax(0,1fr);
+    align-items:baseline;
+    column-gap:12px;
+    padding:20px 0;
+  }
+  .step-number {
+    position:static;
+    font-size:20px;
+    line-height:1.4;
+  }
+  .step h3 {
+    margin:0;
+    font-size:22px;
+    line-height:1.4;
+    letter-spacing:-.3px;
+  }
+  .feature {
+    gap:20px;
+    padding-block:32px;
+  }
+  .paper-section .feature-copy,.roundup-section .feature-copy {
+    padding:0;
+  }
+  .feature h2,.roundup-section h2 {
+    margin:0;
+    font-size:28px;
+    line-height:1.2;
+    letter-spacing:-.6px;
+  }
+  .ornament {
+    font-size:24px;
+    margin-bottom:12px;
+  }
+  .final-signup {
+    padding:32px 0;
+    text-align:left;
+  }
+  .final-signup h2 {
+    margin:0;
+  }
+  .final-signup .signup-slot {
+    max-width:none;
+    margin:20px 0 0;
+  }
+  footer {
+    padding:24px 0;
+    gap:8px;
+  }
+  .footer-masthead {
+    display:inline-flex;
+    align-items:center;
+    min-height:44px;
+    font-size:22px;
   }
 }
 
