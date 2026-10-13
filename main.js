@@ -60,8 +60,8 @@ document.querySelectorAll(".signup-form").forEach((form) => {
       showThankYou(form);
     } catch (requestError) {
       error.textContent = requestError.name === "AbortError"
-        ? "That took a little too long. Please try again in a moment."
-        : "We couldn't save your spot just yet. Please try again in a moment.";
+        ? "Request timed out. Please try again."
+        : "Signup failed. Please try again.";
       error.hidden = false;
     } finally {
       window.clearTimeout(timeout);
